@@ -28,7 +28,11 @@
   .contact-grid {
     grid-template-columns: 1fr;
   }
+  
   .linkedin{
     grid-column: auto;
   }
+  .whatsapp{
+  grid-column: auto;
+}
 }
