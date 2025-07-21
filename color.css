@@ -1,48 +1,92 @@
 .facebook {
   background-color: #1877F2;
 }
+
 .facebook:hover {
   background-color: #155bcb;
-   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   transform: scale(1.2);
 }
+
 .instagram {
   background-color: #E4405F;
 }
+
 .instagram:hover {
   background-color: #c0344d;
-   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   transform: scale(1.2);
 }
+
 .whatsapp {
   background-color: #25D366;
 }
+
 .whatsapp:hover {
   background-color: #1ebe58;
-   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   transform: scale(1.2);
 }
+
 .email {
   background-color: #D44638;
 }
+
 .email:hover {
   background-color: #bb3b30;
-   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   transform: scale(1.2);
 }
-.linkedin{
+
+.linkedin {
   background-color: #0088cc;
 }
+
 .linkedin:hover {
   background-color: #0077b3;
-   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
   transform: scale(1.2);
 }
+
 .github {
   background-color: #333;
 }
+
 .github:hover {
   background-color: #1b1b1b;
   transition: transform 0.3s ease;
   transform: scale(1.2);
+}
+
+@media (max-width: 500px) {
+  .facebook:hover {
+    transform: none;
+    transition: none;
+  }
+
+  .instagram:hover {
+    transform: none;
+    transition: none;
+
+  }
+
+  .whatsapp:hover {
+    transform: none;
+    transition: none;
+  }
+
+  .github:hover {
+    transform: none;
+    transition: none;
+  }
+
+  .email:hover {
+    transform: none;
+    transition: none;
+  }
+
+  .linkedin:hover {
+    transform: none;
+    transition: none;
+  }
 }
